@@ -1,0 +1,5 @@
+const str = 'abdAsdasfas';
+
+const regex = RegExp('^[a-z0-9_]{4,16}$');
+
+console.log(regex.test(str));
